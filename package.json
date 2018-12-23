@@ -1,0 +1,47 @@
+{
+  "name": "niur",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A simple JavaScript view library",
+  "author": "Ananda Umamil <zweimach@zweimach.org>",
+  "license": "MIT",
+  "homepage": "https://github.com/zweimach/niur",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zweimach/niur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zweimach/niur/issues"
+  },
+  "main": "dist/niur.cjs.js",
+  "module": "dist/niur.esm.js",
+  "browser": "dist/niur.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.10.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-flowtype": "^3.2.0",
+    "eslint-plugin-jest": "^22.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "flow-bin": "^0.87.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.3",
+    "rollup": "^1.0.0",
+    "rollup-plugin-babel": "^4.1.0",
+    "rollup-plugin-terser": "^3.0.0"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 1%",
+    "not dead"
+  ]
+}

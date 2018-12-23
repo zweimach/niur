@@ -1,0 +1,11 @@
+# Dependency directories
+node_modules/
+
+# Flow library definitions
+flow-typed/
+
+# Output directories
+dist/
+
+# dotenv environment variables file
+.env
