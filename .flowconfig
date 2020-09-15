@@ -9,6 +9,7 @@ all=warn
 sketchy-null-bool=off
 
 [options]
+exact_by_default=true
 
 [strict]
 nonstrict-import

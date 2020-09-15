@@ -7,11 +7,5 @@ export function h(
   props: nProps,
   ...children: nChild[]
 ): nElementNode {
-  const vElement = {};
-  Object.assign(vElement, {
-    name,
-    props,
-    children,
-  });
-  return vElement;
+  return { name, props, children };
 }
